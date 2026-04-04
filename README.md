@@ -1,23 +1,48 @@
-Aqui estão os arquivos referentes ao projeto da disciplina Programação, IA e Banco de Dados.
+# 📊 Análise de Dados SIAC UFRJ
 
-As pastas nomeadas com anos (2017, 2018, 2019, 2022, 2023, 2024 e 2025) contém os arquivos com os dados retirados do site da Siac.
+Projeto desenvolvido na disciplina **Programação, IA e Bases de Dados**, com foco em extração, tratamento e análise de dados acadêmicos a partir de arquivos do SIAC.
 
-A pasta de "códigos" contém os scripts utilizados para extrair e trabalhar os dados.
+## 🎯 Objetivo
 
-A pasta 'arquivos_gerados' são arquivos de valores. São os arquivos que o código gerou depois de ler os pdf's. 'arquivos_excel' são os 'arquivos_gerados' num arquivo excel.
+O objetivo do projeto foi automatizar o processo de:
+- Extração de dados a partir de arquivos PDF
+- Transformação dos dados em formatos estruturados
+- Geração de análises e visualizações
 
-A pasta "gráficos" contém as tabelas e imagens referentes à geração de gráficos gerados a partir dos dados e utilizados no relatório.
+## 🛠️ Tecnologias utilizadas
 
-A pasta "relatorio" contém uma cópia do relatório.
+- Python
+- SQL
+- Pandas
+- Manipulação de PDFs
+- Excel
 
-Siglas:
-- cmm : Multidisciplinar UFRJ-Macaé.
-- ct : Centro de Tecnologia.
-- cla : Centro de Letras e Artes.
-- cfch : Centro de Filosofia e Ciencias Humanas.
-- fcc : Forum de Ciencia e Cultura.
-- ccmn : Centro de Ciencias Matematicas e da Natureza.
-- ccs : Centro de Ciencias da Saude.
-- ccje : Campus Duque de Caxias.
-- snct : Sessões Especiais - ocorrem em locais diferentes.
-- px : Polo Xerem.
+## 📂 Estrutura do projeto
+
+- `2017–2025/`: dados brutos extraídos do SIAC
+- `codigos/`: scripts para extração e tratamento dos dados
+- `arquivos_gerados_por_codigo/`: dados processados pelo código
+- `arquivos_excel/`: dados convertidos para formato Excel
+- `graficos/`: visualizações geradas a partir dos dados
+- `relatorio/`: relatório final do projeto
+
+## 📈 Resultados
+
+O projeto permitiu:
+- Automatizar a leitura de PDFs acadêmicos
+- Organizar dados não estruturados em tabelas utilizáveis
+- Gerar gráficos para análise dos dados ao longo dos anos
+
+## 👥 Autores
+
+- Arthur Monteiro Cavalcanti Pereira – Matemática Aplicada  
+- Carlos Henrique Pereira Roque – Matemática Aplicada  
+- Gabriel Macedo Luna – Engenharia Matemática  
+- Victor Vieira Nunes – Matemática Aplicada  
+
+Professor: Milton Ramos Ramirez  
+Disciplina: Programação, IA e Bases de Dados
+
+## 📝 Observações
+
+Este projeto foi desenvolvido com fins acadêmicos.
